@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "initial": {
+    "F1": 28.68724923698787,
+    "IoU": 16.74554235409644,
+    "Precision": 25.064775301218905,
+    "Recall": 33.53368856636608,
+    "TP": 729013,
+    "FP": 2179503,
+    "FN": 1444959,
+    "TN": 12423741
+  },
+  "last": {
+    "F1": 78.5472873403603,
+    "IoU": 64.67314366249028,
+    "Precision": 88.2038315555171,
+    "Recall": 70.79649599902851,
+    "TP": 1539096,
+    "FP": 205835,
+    "FN": 634876,
+    "TN": 14397409
+  },
+  "best": {
+    "F1": 78.5556188848935,
+    "IoU": 64.68444086386963,
+    "Precision": 88.04811641517743,
+    "Recall": 70.91071090152035,
+    "TP": 1541579,
+    "FP": 209258,
+    "FN": 632393,
+    "TN": 14393986
+  },
+  "best_checkpoint": "__EXPERIMENT_ROOT__\\work\\cdd_adaptation_train\\best_cdd_F1_iter_3500.pth",
+  "best_sha256": "64e8f48ff9ae50b74a9e1d7193aceb5e39b76763692d269bf7fb095e6f65f317",
+  "delta_F1": 49.86836964790564,
+  "validation_selected": true,
+  "caveat": "No independent-scene test. All target validation scores used for selection. Smoke is not research evidence."
+}

@@ -1,0 +1,41 @@
+{
+  "checkpoint": "__EXPERIMENT_ROOT__\\work\\sta_final_train\\best_sta_F1_iter_39000.pth",
+  "checkpoint_sha256": "e88b75c2449c2554221a75679820e24a0138ac925e632d5497ba52bc8da0566b",
+  "test_list_sha256": "6f1b622522886f08d8e8fb334c6b88d701e92bda52a3a2020dfb990c7a14fe20",
+  "test_count": 2048,
+  "threshold": 0.5,
+  "selection": "Frozen from VAL before TEST",
+  "modes": [
+    "single",
+    "flip4_tta"
+  ],
+  "metrics": {
+    "single": {
+      "F1": 89.74054401129321,
+      "IoU": 81.39033809534196,
+      "Precision": 90.53571832582553,
+      "Recall": 88.95921610014561
+    },
+    "flip4_tta": {
+      "F1": 90.17808954456954,
+      "IoU": 82.11302204687738,
+      "Precision": 91.15722132514216,
+      "Recall": 89.21976820442379
+    }
+  },
+  "counts": [
+    [
+      6082501,
+      635843,
+      754903,
+      126744481
+    ],
+    [
+      6100316,
+      591766,
+      737088,
+      126788558
+    ]
+  ],
+  "seconds": 204.21037859999888
+}

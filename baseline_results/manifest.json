@@ -1,0 +1,219 @@
+{
+  "selection": "Best validation mIoU checkpoint from each baseline; frozen before test",
+  "test_count": 2048,
+  "test_list": "__LEVIR_ROOT__/list/test.txt",
+  "test_list_sha256": "6f1b622522886f08d8e8fb334c6b88d701e92bda52a3a2020dfb990c7a14fe20",
+  "models": [
+    {
+      "name": "SNUNet-C16",
+      "run": "snunet_c16_base_s42",
+      "config": "__OPENCD_ROOT__\\work_dirs\\snunet_c16_base_s42\\baseline.py",
+      "config_sha256": "7b00df084b3c4183d6286e6d4e438c699c5eb967f6ff328c610b509ce0c731e5",
+      "checkpoint": "__OPENCD_ROOT__\\work_dirs\\snunet_c16_base_s42\\best_mIoU_iter_40000.pth",
+      "checkpoint_sha256": "01a7872068c9f0db5e5ce5ef0d6fba46f7e6f8f678ba602bffd5261c893fbe48",
+      "best_iteration": 40000,
+      "batch_size": 8,
+      "accumulation": 1,
+      "max_iterations": 40000,
+      "optimizer": {
+        "loss_scale": "dynamic",
+        "optimizer": {
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "lr": 0.001,
+          "type": "AdamW",
+          "weight_decay": 0.05
+        },
+        "type": "AmpOptimWrapper"
+      },
+      "seed": 42,
+      "inference": {
+        "mode": "whole"
+      }
+    },
+    {
+      "name": "STANet-PAM",
+      "run": "stanet_pam_base_s42",
+      "config": "__OPENCD_ROOT__\\work_dirs\\stanet_pam_base_s42\\baseline.py",
+      "config_sha256": "ef3ee482f3d474b6243f8d7913a540183801ddab360ad6dfc6c9c51f437c7e4f",
+      "checkpoint": "__OPENCD_ROOT__\\work_dirs\\stanet_pam_base_s42\\best_mIoU_iter_128000.pth",
+      "checkpoint_sha256": "72dcb804baf728bbb4a6f262b1738b86b857b593e4edd886d8f51fd2900a5037",
+      "best_iteration": 128000,
+      "batch_size": 2,
+      "accumulation": 4,
+      "max_iterations": 160000,
+      "optimizer": {
+        "accumulative_counts": 4,
+        "optimizer": {
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "lr": 0.001,
+          "type": "AdamW",
+          "weight_decay": 0.05
+        },
+        "type": "OptimWrapper"
+      },
+      "seed": 42,
+      "inference": {
+        "crop_size": [
+          256,
+          256
+        ],
+        "mode": "slide",
+        "stride": [
+          128,
+          128
+        ]
+      }
+    },
+    {
+      "name": "TinyCD",
+      "run": "tinycd_base_s42",
+      "config": "__OPENCD_ROOT__\\work_dirs\\tinycd_base_s42\\baseline.py",
+      "config_sha256": "f11343cf201a4553f5b65d7468e56726f74e44d76c1932c1c189a60d2e9d54ba",
+      "checkpoint": "__OPENCD_ROOT__\\work_dirs\\tinycd_base_s42\\best_mIoU_iter_40000.pth",
+      "checkpoint_sha256": "2ab4c2083c4641e76057a092370a27d622d5c87b7c1c6d9eeb4f1c7d61502d93",
+      "best_iteration": 40000,
+      "batch_size": 8,
+      "accumulation": 1,
+      "max_iterations": 40000,
+      "optimizer": {
+        "loss_scale": "dynamic",
+        "optimizer": {
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "lr": 0.00356799066427741,
+          "type": "AdamW",
+          "weight_decay": 0.009449677083344786
+        },
+        "type": "AmpOptimWrapper"
+      },
+      "seed": 42,
+      "inference": {
+        "mode": "whole"
+      }
+    },
+    {
+      "name": "BIT",
+      "run": "bit_r18_base_s42",
+      "config": "__OPENCD_ROOT__\\work_dirs\\bit_r18_base_s42\\baseline.py",
+      "config_sha256": "75a3adcf5c6012a78bbbba3fa7316e469da15f7d46a2ec44b44897c339af8815",
+      "checkpoint": "__OPENCD_ROOT__\\work_dirs\\bit_r18_base_s42\\best_mIoU_iter_40000.pth",
+      "checkpoint_sha256": "fceb43776fd4abf9084f24502290a86b2fe76d26bd1a4b21202c4e9241e3728f",
+      "best_iteration": 40000,
+      "batch_size": 8,
+      "accumulation": 1,
+      "max_iterations": 40000,
+      "optimizer": {
+        "accumulative_counts": 1,
+        "loss_scale": "dynamic",
+        "optimizer": {
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "lr": 0.001,
+          "type": "AdamW",
+          "weight_decay": 0.05
+        },
+        "type": "AmpOptimWrapper"
+      },
+      "seed": 42,
+      "inference": {
+        "mode": "whole"
+      }
+    },
+    {
+      "name": "ChangeFormer (Open-CD MiT-B0)",
+      "run": "changeformer_b0_base_s42",
+      "config": "__OPENCD_ROOT__\\work_dirs\\changeformer_b0_base_s42\\baseline.py",
+      "config_sha256": "0c7996cf366374c494ea77df4b9f16de601a86a7d5535e8cb0c4565db96202bc",
+      "checkpoint": "__OPENCD_ROOT__\\work_dirs\\changeformer_b0_base_s42\\best_mIoU_iter_40000.pth",
+      "checkpoint_sha256": "c7cfd5168c37daf1cfb288cee4e8adcede277b59f465be1981ac55e2983dbe48",
+      "best_iteration": 40000,
+      "batch_size": 8,
+      "accumulation": 1,
+      "max_iterations": 40000,
+      "optimizer": {
+        "accumulative_counts": 1,
+        "loss_scale": "dynamic",
+        "optimizer": {
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "lr": 6e-05,
+          "type": "AdamW",
+          "weight_decay": 0.01
+        },
+        "paramwise_cfg": {
+          "custom_keys": {
+            "head": {
+              "lr_mult": 10.0
+            },
+            "norm": {
+              "decay_mult": 0.0
+            },
+            "pos_block": {
+              "decay_mult": 0.0
+            }
+          }
+        },
+        "type": "AmpOptimWrapper"
+      },
+      "seed": 42,
+      "inference": {
+        "mode": "whole"
+      }
+    }
+  ],
+  "protocol": {
+    "dataset": {
+      "ann_file": "list/test.txt",
+      "data_prefix": {
+        "img_path_from": "A",
+        "img_path_to": "B",
+        "seg_map_path": "label"
+      },
+      "data_root": "__LEVIR_ROOT__",
+      "format_seg_map": "to_binary",
+      "img_suffix": "",
+      "pipeline": [
+        {
+          "type": "MultiImgLoadImageFromFile"
+        },
+        {
+          "keep_ratio": true,
+          "scale": [
+            256,
+            256
+          ],
+          "type": "MultiImgResize"
+        },
+        {
+          "type": "MultiImgLoadAnnotations"
+        },
+        {
+          "type": "MultiImgPackSegInputs"
+        }
+      ],
+      "reduce_zero_label": false,
+      "seg_map_suffix": "",
+      "test_mode": true,
+      "type": "LEVIR_CD_Dataset"
+    },
+    "evaluator": {
+      "iou_metrics": [
+        "mFscore",
+        "mIoU"
+      ],
+      "type": "mmseg.IoUMetric"
+    }
+  }
+}

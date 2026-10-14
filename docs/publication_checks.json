@@ -1,0 +1,8 @@
+{
+  "syntax_check": "All exported Python files parsed successfully",
+  "metrics_checked": 322,
+  "metric_mismatches": [],
+  "path_configuration": "Tested in separate temporary copy",
+  "training_started": false,
+  "publication_scope": "No data images, checkpoints, virtualenv, personal PDFs or raw logs"
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "name": "SNUNet-C16",
+    "test": {
+      "F1": 90.82,
+      "Precision": 92.16,
+      "Recall": 89.51,
+      "IoU": 83.18,
+      "Acc": 89.51
+    },
+    "test_mIoU": 91.11,
+    "validation": {
+      "F1": 90.66,
+      "Precision": 91.19,
+      "Recall": 90.12,
+      "IoU": 82.91,
+      "Acc": 90.12
+    },
+    "validation_log": "__OPENCD_ROOT__\\work_dirs\\snunet_c16_base_s42\\20260914_152105\\20260914_152105.log",
+    "checkpoint": "__OPENCD_ROOT__\\work_dirs\\snunet_c16_base_s42\\best_mIoU_iter_40000.pth",
+    "iteration": 40000,
+    "test_log": "__OPENCD_ROOT__\\work_dirs\\five_model_test_20260922\\snunet_c16_base_s42\\20260922_180416\\20260922_180416.log",
+    "eval_wall_seconds": 53.62422752380371
+  },
+  {
+    "name": "STANet-PAM",
+    "test": {
+      "F1": 83.81,
+      "Precision": 82.73,
+      "Recall": 84.91,
+      "IoU": 72.13,
+      "Acc": 84.91
+    },
+    "test_mIoU": 85.19,
+    "validation": {
+      "F1": 85.54,
+      "Precision": 84.08,
+      "Recall": 87.06,
+      "IoU": 74.74,
+      "Acc": 87.06
+    },
+    "validation_log": "__OPENCD_ROOT__\\work_dirs\\stanet_pam_base_s42\\20260915_175253\\20260915_175253.log",
+    "checkpoint": "__OPENCD_ROOT__\\work_dirs\\stanet_pam_base_s42\\best_mIoU_iter_128000.pth",
+    "iteration": 128000,
+    "test_log": "__OPENCD_ROOT__\\work_dirs\\five_model_test_20260922\\stanet_pam_base_s42\\20260922_180509\\20260922_180509.log",
+    "eval_wall_seconds": 87.19052195549011
+  },
+  {
+    "name": "TinyCD",
+    "test": {
+      "F1": 90.41,
+      "Precision": 92.2,
+      "Recall": 88.69,
+      "IoU": 82.5,
+      "Acc": 88.69
+    },
+    "test_mIoU": 90.75,
+    "validation": {
+      "F1": 90.83,
+      "Precision": 92.39,
+      "Recall": 89.32,
+      "IoU": 83.2,
+      "Acc": 89.32
+    },
+    "validation_log": "__OPENCD_ROOT__\\work_dirs\\tinycd_base_s42\\20260916_110906\\20260916_110906.log",
+    "checkpoint": "__OPENCD_ROOT__\\work_dirs\\tinycd_base_s42\\best_mIoU_iter_40000.pth",
+    "iteration": 40000,
+    "test_log": "__OPENCD_ROOT__\\work_dirs\\five_model_test_20260922\\tinycd_base_s42\\20260922_180636\\20260922_180636.log",
+    "eval_wall_seconds": 47.19546723365784
+  },
+  {
+    "name": "BIT",
+    "test": {
+      "F1": 90.65,
+      "Precision": 92.13,
+      "Recall": 89.22,
+      "IoU": 82.9,
+      "Acc": 89.22
+    },
+    "test_mIoU": 90.96,
+    "validation": {
+      "F1": 90.67,
+      "Precision": 92.13,
+      "Recall": 89.25,
+      "IoU": 82.92,
+      "Acc": 89.25
+    },
+    "validation_log": "__OPENCD_ROOT__\\work_dirs\\bit_r18_base_s42\\20260921_223425\\20260921_223425.log",
+    "checkpoint": "__OPENCD_ROOT__\\work_dirs\\bit_r18_base_s42\\best_mIoU_iter_40000.pth",
+    "iteration": 40000,
+    "test_log": "__OPENCD_ROOT__\\work_dirs\\five_model_test_20260922\\bit_r18_base_s42\\20260922_180723\\20260922_180723.log",
+    "eval_wall_seconds": 49.84444570541382
+  },
+  {
+    "name": "ChangeFormer (Open-CD MiT-B0)",
+    "test": {
+      "F1": 90.66,
+      "Precision": 92.4,
+      "Recall": 88.98,
+      "IoU": 82.91,
+      "Acc": 88.98
+    },
+    "test_mIoU": 90.97,
+    "validation": {
+      "F1": 90.36,
+      "Precision": 91.57,
+      "Recall": 89.19,
+      "IoU": 82.42,
+      "Acc": 89.19
+    },
+    "validation_log": "__OPENCD_ROOT__\\work_dirs\\changeformer_b0_base_s42\\20260922_155453\\20260922_155453.log",
+    "checkpoint": "__OPENCD_ROOT__\\work_dirs\\changeformer_b0_base_s42\\best_mIoU_iter_40000.pth",
+    "iteration": 40000,
+    "test_log": "__OPENCD_ROOT__\\work_dirs\\five_model_test_20260922\\changeformer_b0_base_s42\\20260922_180813\\20260922_180813.log",
+    "eval_wall_seconds": 55.88890266418457
+  }
+]

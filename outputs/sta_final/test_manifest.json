@@ -1,0 +1,12 @@
+{
+  "checkpoint": "__EXPERIMENT_ROOT__\\work\\sta_final_train\\best_sta_F1_iter_39000.pth",
+  "checkpoint_sha256": "e88b75c2449c2554221a75679820e24a0138ac925e632d5497ba52bc8da0566b",
+  "test_list_sha256": "6f1b622522886f08d8e8fb334c6b88d701e92bda52a3a2020dfb990c7a14fe20",
+  "test_count": 2048,
+  "threshold": 0.5,
+  "selection": "Frozen from VAL before TEST",
+  "modes": [
+    "single",
+    "flip4_tta"
+  ]
+}

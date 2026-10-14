@@ -1,0 +1,26 @@
+{
+  "status": "verified",
+  "final_iteration": 4000,
+  "optimizer_steps": [
+    4000.0
+  ],
+  "finite_checkpoint": true,
+  "finite_logged_losses": true,
+  "validation_F1_curve": [
+    "70.3273",
+    "71.4561",
+    "75.2119",
+    "76.6710",
+    "77.6373",
+    "78.5544",
+    "78.5556",
+    "78.5473"
+  ],
+  "checks": [
+    "three summary confusion matrices and F1 recomputed",
+    "initial metrics match frozen zero-shot",
+    "best checkpoint hash",
+    "script and sample list hashes"
+  ],
+  "new_inference": false
+}

@@ -1,0 +1,11 @@
+{
+  "source": "__OPENCD_ROOT__\\work_dirs\\snunet_c16_base_s42\\best_mIoU_iter_40000.pth",
+  "source_sha256": "01a7872068c9f0db5e5ce5ef0d6fba46f7e6f8f678ba602bffd5261c893fbe48",
+  "config_sha256": "90959befb82c81c9093f9ad24746ed538c33f2e159e40b00a62507099fa45a86",
+  "code_sha256": "64cdce38748d0d4f537d1be587b95aaa1786169c93429abcbf1998de1d049294",
+  "train_list_sha256": "f8ce2c268b718e1a4e8fef56a8b7dbafc582cb06269cce19cf715194fb72f114",
+  "val_list_sha256": "73c842797adfac726a4d96673a7ef8189cebc20b1244aa9560b69a2db089d127",
+  "steps": 4000,
+  "batch_size": 8,
+  "scope": "engineering adaptation diagnostic; shared source-scene imagery across train/val; not unseen-scene generalization"
+}

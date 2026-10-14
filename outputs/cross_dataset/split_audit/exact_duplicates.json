@@ -1,0 +1,5 @@
+{
+  "pair_overlap": [],
+  "single_image_overlap": [],
+  "scope": "train and val; encoded file SHA256. JPEG recompression, rotation, crop overlap and same scene are not excluded by negative results."
+}

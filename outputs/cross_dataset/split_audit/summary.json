@@ -1,0 +1,68 @@
+{
+  "exact_pair_overlap_groups": 0,
+  "exact_single_image_overlap_groups": 0,
+  "matched_pairs": 43,
+  "sampled_pairs": 64,
+  "shared_source_images": {
+    "without_add_object/6": {
+      "train": [
+        "00409.jpg",
+        "08935.jpg",
+        "09674.jpg",
+        "00488.jpg",
+        "03582.jpg",
+        "03257.jpg"
+      ],
+      "val": [
+        "00456.jpg",
+        "01126.jpg",
+        "01728.jpg",
+        "01718.jpg",
+        "00902.jpg"
+      ]
+    },
+    "without_add_object/4": {
+      "train": [
+        "04506.jpg",
+        "01679.jpg",
+        "00434.jpg",
+        "05574.jpg"
+      ],
+      "val": [
+        "00571.jpg",
+        "02233.jpg",
+        "02069.jpg",
+        "02465.jpg"
+      ]
+    },
+    "without_add_object/7": {
+      "train": [
+        "03657.jpg",
+        "09195.jpg",
+        "08928.jpg",
+        "09654.jpg"
+      ],
+      "val": [
+        "00952.jpg",
+        "00108.jpg",
+        "02872.jpg",
+        "02232.jpg",
+        "01839.jpg"
+      ]
+    },
+    "without_add_object/5": {
+      "train": [
+        "01424.jpg",
+        "06912.jpg",
+        "01535.jpg",
+        "07359.jpg",
+        "04557.jpg"
+      ],
+      "val": [
+        "00122.jpg",
+        "00895.jpg"
+      ]
+    }
+  },
+  "limitations": "Only 32 train + 32 val A images matched; no full mapping, no B or GT source verification; no proof of spatial overlap from shared original alone."
+}

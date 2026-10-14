@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.npy
+*.log
+.env
+.venv/
+opencd_env/
+data/
+work/
+runtime/
